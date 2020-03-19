@@ -5,6 +5,8 @@ require 'pry'
 class Scraper
 
   def self.scrape_index_page(index_url)
+    doc = Nokogiri::(open("https://learn-co-curriculum.github.io/student-scraper-test-page/"))
+  end
 
   end
 
