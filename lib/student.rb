@@ -30,10 +30,4 @@ class Student
   def self.all
     @@all
   end
-
-  end
-
-  def self.all
-
-  end
 end
